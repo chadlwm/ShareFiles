@@ -32,7 +32,7 @@ sbt ++2.10.3 assembly
 
 then you will get `KafkaOffsetMonitor-assembly-0.3.0-SNAPSHOT.jar`
 
-if you donnot want to build it by yourself, you can download my build one: [here](https://github.com/chadlwm/ShareFiles/KafkaOffsetMonitor)
+if you donnot want to build it by yourself, you can download my build one: [here](KafkaOffsetMonitor-assembly-0.3.0-SNAPSHOT.jar)
 
 enjoy your time 
 
