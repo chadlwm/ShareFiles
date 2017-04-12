@@ -1,9 +1,9 @@
 # KafkaOffsetMonitor
 
 kafka 0.9.x save the consumers offset with kafka as default, not zookeeper.
-so  [KafkaOffsetMonitor-assembly-0.2.1.jar](https://github.com/quantifind/KafkaOffsetMonitor) could see nothing about consumers, at the same time,  KafkaOffsetMonitor-assembly-0.2.1.jar not support option `--offsetStorage` as the [doc](https://github.com/quantifind/KafkaOffsetMonitor) description.
+so  [KafkaOffsetMonitor-assembly-0.2.1.jar](https://github.com/quantifind/KafkaOffsetMonitor) couldnot see anything about consumers, at the same time,  KafkaOffsetMonitor-assembly-0.2.1.jar not support option `--offsetStorage` as the [doc](https://github.com/quantifind/KafkaOffsetMonitor) description.
 
-But, we can rebuild from source, new KafkaOffsetMonitor's version will be 0.3.0, this version supperts option -offsetStorage.
+But, we can rebuild from source, new KafkaOffsetMonitor's version will be 0.3.0, this version supperts option `--offsetStorage`.
 
 all the steps as follow:
 
@@ -43,7 +43,7 @@ java -cp KafkaOffsetMonitor-assembly-0.3.0-SNAPSHOT.jar \
      --zk 127.0.0.1:2181 \
      --port 18080 \
      --refresh 10.seconds \
-     --retain 2.days=
+     --retain 2.days
 ```
 
 
